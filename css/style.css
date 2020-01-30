@@ -1,0 +1,279 @@
+/* 공통 */
+*{
+  margin: 0; padding: 0;
+}
+li{
+    list-style: none;
+}
+.wrap{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+button{
+    outline: none;
+    cursor: pointer;
+}
+
+/* header */
+.header{
+    background: #f6f5ef;
+    height: 110px;
+}
+.title{
+    padding-top: 20px;
+    overflow: hidden;
+}
+h1{
+    color: #007042;
+    float: left;
+    padding: 10px 10px 0;
+}
+.logo{
+    float: left;
+}
+.search{
+    position: absolute;
+    width: 210px;
+    height: 30px;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+input[type=text]{
+    background: #007042;
+    border: none;
+    width: 210px;
+    height: 30px;
+}
+.search button{
+    position: absolute;
+    color: white;
+    border: none;
+    background: none;
+    font-size: 20px;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.spot{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.spot li{
+    float: left;
+}
+.spot li a{
+    color: gray;
+    padding: 0 5px;
+}
+.fa-star{
+    color:#007042;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding-right: 20px;
+}
+
+/* NAV */
+
+.nav{
+    background: #007042;
+    width: 100%;
+    height: 60px;
+}
+.menu > ul > li{
+    position: relative;
+    float: left;
+    width: 275px;
+    height: 100%;
+    background: #007042;
+}
+.menu > ul > li a{
+    display: block;
+   color: white;
+   line-height: 60px;
+   padding-left: 20px;
+}
+.munu > ul > li a:last-child(){
+    padding-right: 0;
+}
+.fa-chevron-down{
+    position: absolute;
+    color: white;
+    top: 50%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+}
+
+/* 슬라이드 */
+.main{
+    width: 100%;
+    height: 500px;
+    background: #ebebca;
+}
+.slide{
+    height: 500px;
+}
+.left_box{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.left{
+    margin-top: 25px;
+}
+.left button{
+    display: block;
+    background: none;
+    border: 2px solid #829816;
+    width: 100px; height: 35px;
+    margin-top: 20px;
+    color: #829816;
+}
+.right_box{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.right{
+    position: relative;
+    width: 550px; height: 500px;
+    overflow: hidden;
+}
+.right img:first-child{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 50px;
+}
+.right img:last-child{
+    position: absolute;
+    right: 50%;
+    bottom: 60px;
+}
+
+/* section */
+
+.section{
+    width: 100%;
+    height: 950px;
+    background: url(../img/main2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    /* background-attachment: fixed; */
+}
+.section_first{
+    width: 100%;
+    height: 500px;
+}
+.section_first > .wrap{
+    width: 1100px;
+    height: 500px;
+
+}
+.section_first > .wrap > .first_left{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.section_first > .wrap > .first_left img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.section_first > .wrap > .first_left h2{
+    color: white;
+    text-align: right;
+    position: absolute;
+    top: 41%;
+    right: 0;
+}
+.section_first > .wrap > .first_left p{
+    color: #ccc;
+    position: absolute;
+    right: 0;
+    top: 54%;
+    text-align: right;
+    font-size: 13px;
+}
+.section_first > .wrap > .first_left button{
+    background: none;
+    width: 100px;
+    height: 45px;
+    border: 1px solid white;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 70%;
+}
+
+.section_first > .wrap > .first_right{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.section_first > .wrap > .first_right img{
+    width: 420px;
+    height: 240px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+.section_second{
+    width: 100%;
+    height: 450px;
+    background: rgba(255, 255,255, 0.2)
+}
+.section_second .wrap{
+    width: 1100px;
+    height: 450px;
+}
+.section_second .wrap h2{
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    text-shadow: 0px 0px 5px white;
+}
+.section_second .wrap .img_box{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.section_second .wrap .img_box img{
+    width: 265px;
+    height: 275px;
+}
+
+
+.section_2{
+    width: 100%;
+    height: 750px;
+    background: url(../img/main3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
